@@ -1,0 +1,26 @@
+{
+  "build": {
+    "production": {
+      "node": "18.14.2",
+      "ios": {"image": "latest"}
+    },
+    "preview": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "ios": {"image": "latest"},
+      "distribution": "internal"
+    },
+    "development": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "ios": {"image": "latest"},
+      "developmentClient": true,
+      "distribution": "internal"
+    }
+  },
+  "cli": {
+    "version": ">= 0.45.1"
+  }
+}

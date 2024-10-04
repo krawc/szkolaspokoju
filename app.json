@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "owner": "konradkrawc",
+    "name": "Szkoła Spokoju",
+    "slug": "szkolaspokoju",
+    "version": "1.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "buildNumber": "30",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "bundleIdentifier": "com.meditation.szkolaspokoju"
+    },
+    "android": {
+      "userInterfaceStyle": "automatic",
+      "package": "com.meditation.szkolaspokoju",
+      "versionCode": 30
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "34bb67f4-dd0e-4922-9b3c-49f60fe9bfdc"
+      }
+    }
+  }
+}
